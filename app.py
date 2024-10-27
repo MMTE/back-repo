@@ -18,8 +18,8 @@ app = Flask(__name__)
 CORS(app, resources={
     r"/*": {
         "origins": [
-            "http://delyar-front.genx-delyar.svc",  # Kubernetes internal service name
-            "https://delyar.darkube.app"  # Your public domain
+            "http://delyar-front.genx-delyar.svc",  
+            "https://delyar.darkube.app"  
         ]
     }
 })
